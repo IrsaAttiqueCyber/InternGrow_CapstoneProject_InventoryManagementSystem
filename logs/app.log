@@ -1,0 +1,92 @@
+2026-09-24 16:21:09,904 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-09-24 16:21:09,904 - INFO - Press CTRL+C to quit
+2026-09-24 16:21:09,908 - INFO -  * Restarting with stat
+2026-09-24 16:21:14,168 - WARNING -  * Debugger is active!
+2026-09-24 16:21:14,176 - INFO -  * Debugger PIN: 773-225-340
+2026-09-24 16:21:33,940 - INFO - 127.0.0.1 - - [24/Sep/2026 16:21:33] "GET / HTTP/1.1" 302 -
+2026-09-24 16:21:33,977 - INFO - 127.0.0.1 - - [24/Sep/2026 16:21:33] "GET /login HTTP/1.1" 500 -
+2026-09-24 16:21:34,248 - INFO - 127.0.0.1 - - [24/Sep/2026 16:21:34] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-09-24 16:21:34,277 - INFO - 127.0.0.1 - - [24/Sep/2026 16:21:34] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-09-24 16:21:34,439 - INFO - 127.0.0.1 - - [24/Sep/2026 16:21:34] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=pP0ewgpH5qMjWVGRXBfG HTTP/1.1" 200 -
+2026-09-24 16:21:34,591 - INFO - 127.0.0.1 - - [24/Sep/2026 16:21:34] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-09-24 16:21:51,828 - INFO - 127.0.0.1 - - [24/Sep/2026 16:21:51] "GET / HTTP/1.1" 302 -
+2026-09-24 16:21:51,867 - INFO - 127.0.0.1 - - [24/Sep/2026 16:21:51] "GET /login HTTP/1.1" 500 -
+2026-09-24 16:21:51,935 - INFO - 127.0.0.1 - - [24/Sep/2026 16:21:51] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+2026-09-24 16:21:51,948 - INFO - 127.0.0.1 - - [24/Sep/2026 16:21:51] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+2026-09-24 16:21:51,979 - INFO - 127.0.0.1 - - [24/Sep/2026 16:21:51] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=pP0ewgpH5qMjWVGRXBfG HTTP/1.1" 304 -
+2026-09-24 17:45:12,499 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-09-24 17:45:12,499 - INFO - Press CTRL+C to quit
+2026-09-24 17:45:12,501 - INFO -  * Restarting with stat
+2026-09-24 17:45:14,006 - WARNING -  * Debugger is active!
+2026-09-24 17:45:14,015 - INFO -  * Debugger PIN: 773-225-340
+2026-09-24 17:45:23,686 - INFO - 127.0.0.1 - - [24/Sep/2026 17:45:23] "GET / HTTP/1.1" 302 -
+2026-09-24 17:45:23,747 - INFO - 127.0.0.1 - - [24/Sep/2026 17:45:23] "GET /login HTTP/1.1" 200 -
+2026-09-24 17:45:23,943 - INFO - 127.0.0.1 - - [24/Sep/2026 17:45:23] "GET /favicon.ico HTTP/1.1" 404 -
+2026-09-24 17:46:06,956 - INFO - 127.0.0.1 - - [24/Sep/2026 17:46:06] "GET /register HTTP/1.1" 200 -
+2026-09-24 17:46:26,948 - INFO - New user registered: admin
+2026-09-24 17:46:26,950 - INFO - 127.0.0.1 - - [24/Sep/2026 17:46:26] "POST /register HTTP/1.1" 302 -
+2026-09-24 17:46:26,964 - INFO - 127.0.0.1 - - [24/Sep/2026 17:46:26] "GET /login HTTP/1.1" 200 -
+2026-09-24 17:46:54,200 - INFO - User logged in: admin
+2026-09-24 17:46:54,202 - INFO - 127.0.0.1 - - [24/Sep/2026 17:46:54] "POST /login HTTP/1.1" 302 -
+2026-09-24 17:46:54,220 - INFO - 127.0.0.1 - - [24/Sep/2026 17:46:54] "GET /dashboard HTTP/1.1" 200 -
+2026-09-24 17:48:31,183 - INFO - 127.0.0.1 - - [24/Sep/2026 17:48:31] "GET /dashboard HTTP/1.1" 200 -
+2026-09-24 17:48:56,764 - INFO - 127.0.0.1 - - [24/Sep/2026 17:48:56] "GET /dashboard HTTP/1.1" 200 -
+2026-09-24 17:48:59,267 - INFO - 127.0.0.1 - - [24/Sep/2026 17:48:59] "GET /dashboard HTTP/1.1" 200 -
+2026-09-24 17:49:05,419 - INFO - 127.0.0.1 - - [24/Sep/2026 17:49:05] "GET /products/add HTTP/1.1" 500 -
+2026-09-24 17:49:05,691 - INFO - 127.0.0.1 - - [24/Sep/2026 17:49:05] "GET /products/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-09-24 17:49:05,694 - INFO - 127.0.0.1 - - [24/Sep/2026 17:49:05] "GET /products/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-09-24 17:49:05,786 - INFO - 127.0.0.1 - - [24/Sep/2026 17:49:05] "GET /products/add?__debugger__=yes&cmd=resource&f=console.png&s=8AC0efVcgW90ua0AGG3I HTTP/1.1" 200 -
+2026-09-24 17:49:05,836 - INFO - 127.0.0.1 - - [24/Sep/2026 17:49:05] "GET /products/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-09-24 17:50:33,536 - INFO - 127.0.0.1 - - [24/Sep/2026 17:50:33] "GET /products/add HTTP/1.1" 200 -
+2026-09-24 17:51:02,191 - INFO - Product added: laptop
+2026-09-24 17:51:02,193 - INFO - 127.0.0.1 - - [24/Sep/2026 17:51:02] "POST /products/add HTTP/1.1" 302 -
+2026-09-24 17:51:02,217 - INFO - 127.0.0.1 - - [24/Sep/2026 17:51:02] "GET /products HTTP/1.1" 200 -
+2026-09-24 17:51:50,758 - INFO - 127.0.0.1 - - [24/Sep/2026 17:51:50] "GET /products HTTP/1.1" 200 -
+2026-09-24 17:51:52,595 - INFO - 127.0.0.1 - - [24/Sep/2026 17:51:52] "GET /products/edit/1 HTTP/1.1" 500 -
+2026-09-24 17:51:52,658 - INFO - 127.0.0.1 - - [24/Sep/2026 17:51:52] "GET /products/edit/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-09-24 17:51:52,664 - INFO - 127.0.0.1 - - [24/Sep/2026 17:51:52] "GET /products/edit/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-09-24 17:51:52,697 - INFO - 127.0.0.1 - - [24/Sep/2026 17:51:52] "GET /products/edit/1?__debugger__=yes&cmd=resource&f=console.png&s=8AC0efVcgW90ua0AGG3I HTTP/1.1" 200 -
+2026-09-24 17:51:52,751 - INFO - 127.0.0.1 - - [24/Sep/2026 17:51:52] "GET /products/edit/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-09-24 17:57:14,470 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-09-24 17:57:14,470 - INFO - Press CTRL+C to quit
+2026-09-24 17:57:14,474 - INFO -  * Restarting with stat
+2026-09-24 17:57:15,740 - WARNING -  * Debugger is active!
+2026-09-24 17:57:15,747 - INFO -  * Debugger PIN: 773-225-340
+2026-09-24 17:57:16,982 - INFO - 127.0.0.1 - - [24/Sep/2026 17:57:16] "GET /products/edit/1 HTTP/1.1" 200 -
+2026-09-24 17:57:22,089 - INFO - Product updated: laptop
+2026-09-24 17:57:22,092 - INFO - 127.0.0.1 - - [24/Sep/2026 17:57:22] "POST /products/edit/1 HTTP/1.1" 302 -
+2026-09-24 17:57:22,133 - INFO - 127.0.0.1 - - [24/Sep/2026 17:57:22] "GET /products HTTP/1.1" 200 -
+2026-09-24 17:57:44,494 - INFO - 127.0.0.1 - - [24/Sep/2026 17:57:44] "GET /products HTTP/1.1" 200 -
+2026-09-24 17:57:49,529 - INFO - Product deleted: laptop
+2026-09-24 17:57:49,534 - INFO - 127.0.0.1 - - [24/Sep/2026 17:57:49] "GET /products/delete/1 HTTP/1.1" 302 -
+2026-09-24 17:57:49,549 - INFO - 127.0.0.1 - - [24/Sep/2026 17:57:49] "GET /products HTTP/1.1" 200 -
+2026-09-24 17:57:51,872 - INFO - 127.0.0.1 - - [24/Sep/2026 17:57:51] "GET /dashboard HTTP/1.1" 200 -
+2026-09-24 17:58:32,505 - INFO - 127.0.0.1 - - [24/Sep/2026 17:58:32] "GET /products/add HTTP/1.1" 200 -
+2026-09-24 17:59:04,114 - INFO - Product added: keyboard
+2026-09-24 17:59:04,117 - INFO - 127.0.0.1 - - [24/Sep/2026 17:59:04] "POST /products/add HTTP/1.1" 302 -
+2026-09-24 17:59:04,133 - INFO - 127.0.0.1 - - [24/Sep/2026 17:59:04] "GET /products HTTP/1.1" 200 -
+2026-09-24 17:59:05,799 - INFO - Inventory exported to CSV.
+2026-09-24 17:59:05,834 - INFO - 127.0.0.1 - - [24/Sep/2026 17:59:05] "GET /export HTTP/1.1" 500 -
+2026-09-24 17:59:06,073 - INFO - 127.0.0.1 - - [24/Sep/2026 17:59:06] "GET /export?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-09-24 17:59:06,076 - INFO - 127.0.0.1 - - [24/Sep/2026 17:59:06] "GET /export?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-09-24 17:59:06,168 - INFO - 127.0.0.1 - - [24/Sep/2026 17:59:06] "GET /export?__debugger__=yes&cmd=resource&f=console.png&s=iQvjrM7yPJNOLDTSGm1n HTTP/1.1" 200 -
+2026-09-24 17:59:06,216 - INFO - 127.0.0.1 - - [24/Sep/2026 17:59:06] "GET /export?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-09-24 18:06:22,463 - INFO -  * Detected change in 'D:\\Internship\\INTERNGROW\\inventory management system_task6\\app\\routes.py', reloading
+2026-09-24 18:06:22,631 - INFO -  * Restarting with stat
+2026-09-24 18:08:14,074 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-09-24 18:08:14,074 - INFO - Press CTRL+C to quit
+2026-09-24 18:08:14,077 - INFO -  * Restarting with stat
+2026-09-24 18:08:15,576 - WARNING -  * Debugger is active!
+2026-09-24 18:08:15,583 - INFO -  * Debugger PIN: 773-225-340
+2026-09-24 18:08:16,663 - INFO - Inventory exported to CSV.
+2026-09-24 18:08:16,790 - INFO - 127.0.0.1 - - [24/Sep/2026 18:08:16] "GET /export HTTP/1.1" 200 -
+2026-09-24 18:08:22,346 - INFO - 127.0.0.1 - - [24/Sep/2026 18:08:22] "GET /products HTTP/1.1" 200 -
+2026-09-24 18:08:24,392 - INFO - Inventory exported to CSV.
+2026-09-24 18:08:24,398 - INFO - 127.0.0.1 - - [24/Sep/2026 18:08:24] "GET /export HTTP/1.1" 200 -
+2026-09-24 18:10:53,558 - INFO - 127.0.0.1 - - [24/Sep/2026 18:10:53] "GET /api/products HTTP/1.1" 200 -
+2026-09-24 18:20:02,444 - INFO - 127.0.0.1 - - [24/Sep/2026 18:20:02] "POST /api/products HTTP/1.1" 201 -
+2026-09-24 18:20:39,523 - INFO - 127.0.0.1 - - [24/Sep/2026 18:20:39] "GET /api/products HTTP/1.1" 200 -

@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Dashboard</h2>
+
+<div class="card">
+
+    <h3>Inventory Summary</h3>
+
+    <p>
+        <strong>Total Products:</strong>
+        {{ total_products }}
+    </p>
+
+    <p>
+        <strong>Total Stock Quantity:</strong>
+        {{ total_stock }}
+    </p>
+
+</div>
+
+<div class="card">
+
+    <h3>Recent Inventory</h3>
+
+    {% if products %}
+
+    <table>
+
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+
+        {% for product in products %}
+
+        <tr>
+            <td>{{ product.id }}</td>
+            <td>{{ product.name }}</td>
+            <td>{{ product.category }}</td>
+            <td>{{ product.quantity }}</td>
+            <td>{{ product.price }}</td>
+        </tr>
+
+        {% endfor %}
+
+    </table>
+
+    {% else %}
+
+    <p>No products available yet.</p>
+
+    {% endif %}
+
+</div>
+
+{% endblock %}
